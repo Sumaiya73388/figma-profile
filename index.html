@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+     <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+     
     <link rel="stylesheet" href="main.css">
 </head>
-
 <body>
     <header class="container">
         <nav>
-            <ul class="heebo-medium">
+            <ul>
                 <li>
                     <a href="#">Works</a>
                 </li>
@@ -24,26 +28,118 @@
             </ul>
         </nav>
     </header>
-    <main class="container">
-        <section class="resume-section heebo">
-            <div class="resume-left">
-                <h1>
-                    Hi, I am John,
-                    <br>
-                    Creative Technologist
-                </h1>
-                <p>
+    <div class="center-container heebo-bold">
+        <div class="left-side">
+            <h1 class="heebo-bold">
+               Hi, I am John,
+               <br>
+               Creative Technologist
+            </h1>
+            <div class="para">
+                <p class="heebo-regular">
+                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet 
+                   <br>
+                   sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+            <button class="download">Download Resume</button>
+        </div>
+        <div class="right-side">
+            <div class="secound"></div>
+            <img src="images/man.png.png" alt="Profile Image" class="logo-image">
+        </div>
+    </div>
+    <div class="recent-main">
+        <div class="heading">
+            <h3 class="heebo-regular">Recent posts</h3>
+            <a href="#">View all</a>     
+        </div>
+        <div class="head-main">
+            <div class="right-head">
+                <h2 class="heebo-bold">Making a design system from scratch</h2>
+                <p class="heebo-regular">12 Feb 2020  |  Design, Pattern</p>
+                <p class="text-left heebo-regular">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                 </p>
-                <br>
-                   <a href="#" class="anchor-m">Download Resume</a>
             </div>
-            <div class="resume-right">
-                <div class="profile-outer-circle"></div>
-                <img src="images/man.png.png" alt="Profile Picture">
+            <div class="left-head">
+                <h2 class="heebo-bold">Creating pixel perfect icons in Figma</h2>
+                <p class="heebo-regular">12 Feb 2020 | Figma, Icon Design</p>
+                <p class="text-right heebo-regular">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
             </div>
-        </section>
-    </main>
+        </div>
+    </div>
+    <div class="featured-work heebo-regular">
+        <div class="heading">
+          <h3 class="heebo-regular">Featured-works</h3>  
+        </div>
+    <!-- <div class="image"><img src="images/firstimage.png.png"  alt=""></div>
+            <div class="text">
+                <h2 class="heebo-bold">Designing Dashboards</h2>
+            </div> --> 
+    <!-- 1st div -->  
+     <div class="division1">
+       <div class="work-image">
+         <img src="./images/firstimage.png.png">
+       </div>
+         <div class="content">
+            <h3 class="heebo-bold">Designing Dashboards</h3>
+            <div class="para-content">
+                <span class="part-1">2020</span>
+                <span class="ctg">Dashboard</span>
+            </div>
+        <p class="heebo-regular">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>    
+         </div>
+     </div> 
+     <hr>
+     <!-- 2nd division-->  
+      <div class="division1">
+        <div class="work-image">
+          <img src="./images/secondimage.png.png">  
+        </div>
+         <div class="content">
+            <h3 class="heebo-bold">Vibrant Portraits of 2020</h3>
+        <div class="para-content">
+            <span class="part-1">2018</span>
+            <span class="ctg">Illustration</span>
+        </div>   
+        <p class="heebo-regular">
+           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
+        </p> 
+         </div>
+      </div> 
+      <hr>
+      <!-- 3rd division -->  
+       <div class="division1">
+        <div class="work-image">
+           <img src="./images/thirdimage.png.png"> 
+        </div>
+        <div class="content">
+            <h3 class="heebo-bold">36 Days of Malayalam type</h3>
+        <div class="para-content">
+            <span class="part-1">2018</span>
+            <span class="ctg">Typography</span>
+        </div>  
+        <p class="heebo-regular">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>  
+        </div>
+       </div>
+       <hr>
+    </div>
+    <!-- footer -->
+     <footer>
+        <div class="icons-main">
+            <img src="/images/facebook.png.png" alt="facebook" class="icons">
+            <img src="/images/instagram.png.png" alt="instagram" class="icons">
+            <img src="/images/twitter.png.png" alt="twitter" class="icons">
+            <img src="/images/linkedin.png.png" alt="linkedin" class="icons">
+        </div>
+     <div class="copy heebo-regular">Copyright ©2020 All rights reserved </div>
+     </footer>
 </body>
-
 </html>
