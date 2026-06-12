@@ -207,7 +207,7 @@ hr {
     margin: 30px 0;
 }
 
-   /*FOOTER SECTION*/
+  /*FOOTER SECTION*/
 footer {
     text-align: center;
     padding: 50px 0;
@@ -228,5 +228,5 @@ footer {
 
 .copy {
     font-size: 14px;
-    color: #21243D
+     color: #21243D 
 }
