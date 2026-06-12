@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body {
+    font-family: "Heebo", sans-serif;
+    color:#21243D;
+    background-color:#ffffff;
+}
+/*NAVIGATION BAR*/
+nav ul{
+    margin: 9px 0;
+    padding-right: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li {
+    padding-left: 36px;
+    padding-right: 0px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav ul li a:hover {
+    color: #e23030;
+}
+/*HERO SECTION*/
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hero-section h1 { 
+    margin-top: 60px; 
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.work-item {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.work-image img {
+    width: 246px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+/*CONTENT STYLING*/
+.work-content {
+    flex: 1;
+}
+.work-content h2 {
+    font-family: Heebo , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #21243D;
+    margin-top: 0;
+}
+.work-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.work-date {
+    background-color: #142850;
+    color: white;
+    padding: 2px 10px;
+    font-weight: 700px;
+    font-size: 14px;
+    border-radius: 16px;
+    margin-right: 15px;
+
+}
+.work-category {
+    color: #8695A4;
+    font-size: 18pxpx;
+}
+.work-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #21243D;
+    width: 418px;
+    min-height: 43px;
+    font-weight: 400;
+}
+/*FOOTER SECTION*/
+footer {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.icon-main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icons-main img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.copy {
+    font-size: 14px;
+    color: #21243D
+}

@@ -71,10 +71,13 @@ nav ul li a.current-page {
 }
    /*FOOTER SECTION*/
 footer {
-    text-align: center;
-    padding: 50px 0;
+    margin: 0 15px;
 }
 
+.copy {
+    font-size: 14px;
+    color: #21243D
+}
 .icon-main {
     display: flex;
     justify-content: center;
@@ -84,11 +87,7 @@ footer {
 .icons-main img {
     width: 30px;
     height: 30px;
-    cursor: pointer;
-    margin: 0 15px;
-}
-
-.copy {
-    font-size: 14px;
-    color: #21243D
+    cursor: pointer; 
+    text-align: center;
+    padding: 50px 0;
 }

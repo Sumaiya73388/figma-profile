@@ -39,6 +39,9 @@ nav ul li a {
     font-size: 18px;
     font-weight: 500;
 }
+nav ul li a:hover {
+    color: rgb(184, 26, 26); 
+}
 
    /*HERO SECTION*/
 .center-container {
